@@ -48,7 +48,7 @@ export default function Root() {
                             id="q"
                             className={searching ? "loading" : ""}
                             aria-label="Search contacts"
-                            placeholder="Search"
+                            placeholder="検索"
                             type="search"
                             name="q"
                             defaultValue={q}
@@ -70,7 +70,7 @@ export default function Root() {
                         ></div>
                     </Form>
                     <Form method="post">
-                        <button type="submit">New</button>
+                        <button type="submit">追加</button>
                     </Form>
                 </div>
                 <nav>

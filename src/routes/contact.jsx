@@ -62,7 +62,7 @@ export default function Contact() {
 
                 <div>
                     <Form action="edit">
-                        <button type="submit">Edit</button>
+                        <button type="submit">編集</button>
                     </Form>
                     <Form
                         method="post"
@@ -70,14 +70,14 @@ export default function Contact() {
                         onSubmit={(event) => {
                             if (
                                 !confirm(
-                                    "Please confirm you want to delete this record."
+                                    "このユーザーを削除しますか？"
                                 )
                             ) {
                                 event.preventDefault();
                             }
                         }}
                     >
-                        <button type="submit">Delete</button>
+                        <button type="submit">削除</button>
                     </Form>
                 </div>
             </div>

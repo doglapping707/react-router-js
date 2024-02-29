@@ -64,14 +64,14 @@ export default function EditContact() {
                 />
             </label>
             <p>
-                <button type="submit">Save</button>
+                <button type="submit">保存</button>
                 <button
                     type="button"
                     onClick={() => {
                         navigate(-1);
                     }}
                 >
-                    Cancel
+                    戻る
                 </button>
             </p>
         </Form>
