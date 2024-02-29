@@ -3,7 +3,7 @@
 
 ## このサイトについて
 
-[React Router](https://reactrouter.com//main)の[チュートリアル](https://reactrouter.com/en/main/start/tutorial)を参考にアプリケーションを構築しました。
+[React Router](https://reactrouter.com//main)の[チュートリアル](https://reactrouter.com/en/main/start/tutorial)を参考に連絡先登録アプリを作成しました。
 
 ## インストール・起動方法
 
